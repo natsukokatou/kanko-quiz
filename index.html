@@ -1,1 +1,25 @@
 <h1>観光クイズ！</h1>
+<script type="module">
+import {bg,show}from "https://js.sabae.cc/egadv.js";
+await bg(3143)
+for(;;){
+    let a = await show("どこの海かな？",["福井","島根","高知"]);
+    if(a=="高知"){
+      await show("正解！すごい！！")
+      break;
+    }else{
+      await show("残念！違うよ")
+}
+}
+await show("高知の桂浜でした！素敵(^^♪）"）
+await bg(64)
+for(;;){
+    let a = await show("どこの風景かな？",["愛媛","和歌山","静岡"]);
+    if(a=="和歌山"){
+      await show("正解！すごい！！")
+      break;
+    }else{
+      await show("残念！違うよ")
+}
+}
+await show("みかんの生産は和歌山が日本一！！！）"）
